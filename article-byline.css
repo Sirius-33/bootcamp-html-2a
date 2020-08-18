@@ -1,0 +1,19 @@
+.byline {
+    grid-area: byline;
+    display:grid;
+    grid-template-areas: "foto navn"
+                        "foto contact";
+}
+
+.byline__avatar{
+    grid-area: foto;
+}
+
+.byline__name{
+    grid-area: navn;
+}
+
+.byline__contact{
+    grid-area: contact;
+}
+

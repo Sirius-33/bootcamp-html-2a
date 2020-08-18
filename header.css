@@ -1,0 +1,23 @@
+ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header__link--red{
+    color: hsl(0, 100%, 45.5%)
+}
+
+.header__image--center {
+    display: block;
+    margin: 0 auto;
+}
