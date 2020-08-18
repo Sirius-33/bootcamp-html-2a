@@ -1,4 +1,4 @@
-.mainArticle__byline {
+.byline {
     grid-area: byline;
     display:grid;
     grid-template-areas: "foto navn"
